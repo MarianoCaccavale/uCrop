@@ -241,7 +241,7 @@ public class UCrop {
      * @param intent crop result intent
      */
     public static float getOutputImageAngle2(@NonNull Intent intent) {
-          return 1.234;//intent.GetAnglePY();;
+          return intent.GetAnglePY();;
     }
     //---------------------------------
     
@@ -251,7 +251,7 @@ public class UCrop {
      * @param intent crop result intent
      */
       public static float getOutputImageAngle() {
-          return 2.345;// mCropIntent.GetAnglePY();
+          return mCropIntent.GetAnglePY();
     }
   //___________________________________________________
     

@@ -230,6 +230,32 @@ public class UCrop {
     public static int getOutputImageHeight(@NonNull Intent intent) {
         return intent.getIntExtra(EXTRA_OUTPUT_IMAGE_HEIGHT, -1);
     }
+    
+    
+    
+    //___________________________________________________
+    
+    /**
+     * Retrieve the height of the cropped image
+     *
+     * @param intent crop result intent
+     */
+    public static float getOutputImageAngle2(@NonNull Intent intent) {
+          return 1.234;//intent.GetAnglePY();;
+    }
+    //---------------------------------
+    
+    /**
+     * Retrieve the height of the cropped image
+     *
+     * @param intent crop result intent
+     */
+      public static float getOutputImageAngle() {
+          return 2.345;// mCropIntent.GetAnglePY();
+    }
+  //___________________________________________________
+    
+    
 
     /**
      * Retrieve cropped image aspect ratio from the result Intent

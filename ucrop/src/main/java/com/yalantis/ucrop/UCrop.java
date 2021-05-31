@@ -239,7 +239,7 @@ public class UCrop {
      *
      * @param intent crop result intent
      */
-    public static float getOutputImageAngle2(@NonNull Intent intent) {
+    public static float getOutputImageAnglePy(@NonNull Intent intent) {
           return intent.getFloatExtra(EXTRA_OUTPUT_IMAGE_ANGLE, 0f);
     }
     //---------------------------------
